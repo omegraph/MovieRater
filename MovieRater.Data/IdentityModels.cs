@@ -34,6 +34,7 @@ namespace MovieRater.Data
         }
 
         public DbSet<Movie> Movies { get; set; }
+        public DbSet<TVShow> TVShows { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder

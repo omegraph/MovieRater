@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 /// <summary>
-/// ////////Cuurent Project
+/// 
 /// </summary>
 namespace MovieRater.Data
 {
@@ -39,7 +39,7 @@ namespace MovieRater.Data
         [Display(Name = "Main Character")]
         public string MainCharacters { get; set; }
 
-        [Required]
-        public List<string> PlacesToWatch { get; set; } = new List<string>();
+        //[Required]
+        //public List<string> PlacesToWatch { get; set; } = new List<string>();
     }
 }

@@ -55,15 +55,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MovieModels\MovieCreate.cs" />
+    <Compile Include="MovieModels\MovieEdit.cs" />
     <Compile Include="MovieModels\MovieListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TVShowModels\TVShowEdit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="TVShowModels\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
